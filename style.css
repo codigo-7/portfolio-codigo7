@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0F172A;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+header div span{
+    color: #00FFFF;
+    font-weight: bold;
+}
+
+header nav ul{
+    color: #FFF;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.hero {
+    background-color: #0F172A;   
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.hero h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.hero h1 span{
+    color: #00FFFF;
+}
+
+.hero button{
+    background-color: #06B6D4;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.team{
+    background-color: #162033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+.team h2{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.team .card{
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.foto{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+}
+.card h3{
+    color: #00FFFF;
+}
+
+.card p{
+    color: #FFF;
+}
+
+footer{
+    background-color: #0F172A;
+    text-align: center;
+    color: #6D8196;
+    padding: 40px;
+}
+
+footer a{
+    color: #00FFFF;
+}
